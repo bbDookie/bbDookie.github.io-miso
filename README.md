@@ -1,2 +1,2 @@
 # MISO by bbDookie
-Mini social messaging website
+Mini social messaging website using Python Django framework.
