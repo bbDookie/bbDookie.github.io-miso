@@ -1,0 +1,9 @@
+{% extends 'main.html' %} {% block content %}
+<form action="" method="POST">
+  {% csrf_token %}
+  <p>Are you sure you want to delete <b>"{{obj}}"?</b></p>
+  {% comment %} grabe naman pala mag comment dito, sosyal {% endcomment %}
+  <a href="{{request.META.HTTP_REFERER}}">nope</a>
+  <input type="submit" value="Yes please" />
+</form>
+{% endblock content %}
